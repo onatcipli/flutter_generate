@@ -6,10 +6,19 @@ Structure defaultStructure = Structure();
 /// You able to create a your own structure with this class
 /// Just create a new instance an pass it to [Generator]
 class Structure {
+  /// Path of the pages dir for example: 'lib/pages/'
   String pagesPath;
+
+  /// Path of the widgets dir for example: 'lib/widgets/'
   String widgetsPath;
+
+  /// Path of the models dir for example: 'lib/models/'
   String modelsPath;
+
+  /// Path of the repositories dir for example: 'lib/repositories/'
   String repositoriesPath;
+
+  /// Path of the blocs dir for example: 'lib/blocs/'
   String blocsPath;
 
   Structure({
