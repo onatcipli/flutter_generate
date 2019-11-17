@@ -1,3 +1,7 @@
+## 0.1.1 
+
+- readme updates
+
 ## 0.1.0
 
 - Able to generate [bloc](https://pub.dev/packages/bloc) from commandline(with using [equatable](https://pub.dev/packages/equatable) only)

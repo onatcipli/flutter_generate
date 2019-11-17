@@ -1,6 +1,6 @@
 name: flutter_generate
 description: A sample command-line application which can create .dart files to determine a structure
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/onatcipli/flutter_generate
 author: Onat Çipli <ciplionat35@gmail.com>
 
