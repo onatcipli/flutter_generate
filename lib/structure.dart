@@ -52,15 +52,18 @@ class Structure {
     return this.toMap()[key];
   }
 
-  // ignore: missing_return
   static String replaceAsExpected({String path, String replaceChar}) {
     if (path.contains("\\")) {
       if (Platform.isLinux || Platform.isMacOS) {
         return path.replaceAll("\\", "/");
+      } else {
+        return path;
       }
     } else if (path.contains("/")) {
       if (Platform.isWindows) {
         return path.replaceAll("/", "\\\\");
+      } else {
+        return path;
       }
     } else {
       return path;
