@@ -1,3 +1,7 @@
+## 0.1.2 
+
+- Structure ios path fix
+
 ## 0.1.1 
 
 - readme updates
